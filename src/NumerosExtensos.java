@@ -88,6 +88,6 @@ public class NumerosExtensos {
     }
 
     public static void main(String[] args) {
-        System.out.println(paraExtenso(MAX_VALUE.negate().subtract(BigInteger.ONE)));
+        System.out.println(paraExtenso(MAX_VALUE));
     }
 }
