@@ -12,7 +12,7 @@ public class NumerosExtensos {
         "vinte", "trinta", "quarenta", "cinquenta", "sessenta", "setenta", "oitenta", "noventa", "cem"
     };
     private final static String[] centenas = {
-        "cento", "duzentos", "trezentos", "quatrocentos", "cincocentos", "seiscentos", "setecentos", "oitocentos", "novecentos"
+        "cento", "duzentos", "trezentos", "quatrocentos", "quinhentos", "seiscentos", "setecentos", "oitocentos", "novecentos"
     };
     private final static String[] cardinais = {
         "mil", "milhão", "bilhão", "trilhão", "quatrilhão", "quintilhão", "sextilhão", "septilhão", "octilhão", "nonilhão", "decilhão", "unidecilhão", "duodecilhão", "tredecilhão"
@@ -88,6 +88,6 @@ public class NumerosExtensos {
     }
 
     public static void main(String[] args) {
-        System.out.println(paraExtenso(MAX_VALUE));
+        System.out.println(paraExtenso(1l<<31));
     }
 }
